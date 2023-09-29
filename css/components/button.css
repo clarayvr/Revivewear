@@ -1,0 +1,47 @@
+.banner .product-banner button{
+	margin-top:20px;
+	padding:15px 20px;
+	font-size:15px;
+	border-radius: 10px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+}
+.first .product-banner button{
+	background-color: #F4F3ED;
+	border:1px solid #F4F3ED;
+	color:#7f5539;
+	font-weight:bold;
+	transition: background-color 0.5s, color 0.5s;
+}
+.first .product-banner button:hover{
+	background-color: inherit;
+	color: #F4F3ED;
+
+	}
+
+.button-beige{
+	margin-top:20px;
+	padding:15px 20px;
+	font-size:15px;
+	border-radius: 10px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	background-color: #F4F3ED;
+	border:1px solid #F4F3ED;
+	color:#7f5539;
+	font-weight:bold;
+	transition: background-color 0.5s, color 0.5s;
+	text-decoration: none;
+	margin-left: 40px;
+	
+
+}
+
+.button-beige:hover {
+
+	
+    color:inherit;
+	background-color: #7f5539;
+}

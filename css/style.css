@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@100;300;400;500&display=swap');
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/button.css");
+:root{
+	--white: #FFFFFF;
+}
+
+body{
+	margin:0;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+header nav{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+	padding:10px 5% 0 5%;
+}
+header nav h1{
+	margin:0;
+	text-transform: uppercase;
+}
+header nav .right{
+	display:flex;
+	align-items:center;
+	
+}
+header nav .right p{
+	margin:0 15px 0 0;
+	color:#7f5539;
+}
+header nav .right p:hover{
+	color:#b08968;
+	cursor:pointer;
+}
+header nav .right button{
+	padding:5px 15px;
+	font-size:16px;
+	background-color: inherit;
+	border:1px solid #C98E4A;
+	color: #7f5539;
+	border-radius: 5px;
+	cursor:pointer;
+	transition: color 0.5s, background-color 0.5s ;
+}
+header nav .right button:hover{
+	color:inherit;
+	background-color: #7f5539;
+}
+.second {
+	margin:0;
+	background-color: #13181d;
+}
+
+.second .product-image img{
+	width:100%;
+}
+.product-container h1{
+	margin:0 0 18px;
+	font-size:4vw;
+	width:90%;
+	text-align: center;
+	color:#7f5539;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.product-container .container{
+	display:flex;
+	justify-content: center;
+}
+.product-container .container .cards{
+	width:300px;
+	margin: 10px;
+	margin-bottom: 50px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: #ccc;
+	}
+.product-container .container .card-img img{
+	width: 100%;
+}
+.product-container .container .card-body h2{
+	text-align: center;
+	color:#7f5539;
+}
+.product-container .container .card-body p{
+	text-align: center;
+	margin: 0 10px 10px;
+	padding: 5px;
+	color:#b08968;
+}
+.product-container .container .card-footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.product-container .container .card-footer button{
+	width: 150px;
+	background-color: inherit;
+	border: 2px solid #b08968;
+	border-radius: 15px;
+	padding: 6px;
+	font-weight: bold;
+	color: #b08968;
+	transition: background-color 0.5s, color 0.5s;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.product-container .container .card-footer button:hover{
+
+	color:inherit;
+	background-color: #7f5539;
+}
+.product-container .container .cards:hover{
+	box-shadow: 3.9px 7.8px 8px grey; 
+}
+footer{
+	margin: 0;
+	padding:20px;
+	display:flex;
+	justify-content: space-around;
+	font-weight: bold;
+	color:#0f0601;
+}
+
+footer h3{
+	color: #7f5539;
+	margin-left: 20px;
+	font-weight: bold;
+
+}
+footer p{
+	cursor: pointer;
+	color:#b08968;
+	margin-left: 20px;
+}
+footer p:hover{
+	color: white;
+}
+footer .copyright {
+	font-size: 10px;
+	display: flex;
+}
+
+	footer{
+		justify-content: center;
+	}
+	footer .column{
+		width:100%;
+		background-color: #fffcf2;
+
+	}
+
+.legal {
+  text-align: left;
+  color: #7f5539;
+  margin-top: 50px;
+}
+
+.email {
+  border-radius: 50px;
+  width: 40%;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 15px;
+  
+}
+
+.logo {
+
+	position: absolute;
+	top: 1%;
+	left: 5px;
+	width: 100px;
+
+}
+
+
+.carousel {
+
+	display: grid;
+	grid-auto-flow: column;
+	scroll-behavior: auto;
+	overflow-y: auto;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: ;
+	scrollbar-color: #b08968;
+	scrollbar-arrow-color: #7f5539;
+	width: 500px;
+	margin-left: 450px;
+	padding: 40px;
+	align-items: center;
+	background-color:#f5ebe0 ;
+
+	
+}
+
+.card {
+
+	  width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 80px;
+    align-content: space-between;
+    flex-direction: column;
+    margin-bottom: 200px;
+
+
+}
+
+.card button {
+
+	margin-top:20px;
+	padding:15px 20px;
+	font-size:15px;
+	border-radius: 10px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	background-color: #fffcf2;
+	border:1px solid #F4F3ED;
+	color:#7f5539;
+	font-weight:bold;
+	transition: background-color 0.5s, color 0.5s;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.card button:hover {
+
+  color:inherit;
+	background-color: #7f5539;
+}
+
+
+
+
+

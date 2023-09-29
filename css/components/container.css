@@ -1,0 +1,42 @@
+.container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.text h1 {
+
+
+    padding: 10px;
+    margin:0 0 18px;
+    font-size:40px;
+    width:90%;
+    text-align: left;
+    color : #7f5539; 
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
+
+.text p {
+
+
+padding: 20px;
+margin: 0 10px 10px;
+margin-left: 40px;
+padding: 20px;
+font-size: 15px;
+color:#7f5539 ;
+text-align: left;
+
+}
+
+
+.image {
+
+
+    width: 800px; 
+    height: auto; 
+    max-width: 100%;
+    text-align: right;
+    flex: 1;}
